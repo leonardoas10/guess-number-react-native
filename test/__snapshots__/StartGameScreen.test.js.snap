@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartGameScreen /> it's have a property onStartGame 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "paddingBottom": 0,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "open-sans-bold",
+              "fontSize": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          Start a New Game!
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 10,
+              "elevation": 5,
+              "maxWidth": "95%",
+              "minWidth": 300,
+              "padding": 10,
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.26,
+              "shadowRadius": 10,
+              "width": "80%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "open-sans",
+              }
+            }
+          >
+            Select a Number
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            keyboardType="number-pad"
+            maxLength={2}
+            onChangeText={[Function]}
+            placeholder="Enter a Number"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 1,
+                "height": 30,
+                "marginVertical": 10,
+                "textAlign": "center",
+                "width": 50,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 15,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 250,
+                }
+              }
+            >
+              <View
+                accessibilityRole="button"
+                accessibilityStates={Array []}
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#007AFF",
+                          "fontSize": 18,
+                          "padding": 8,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#c717fc",
+                        },
+                      ]
+                    }
+                  >
+                    RESET
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 250,
+                }
+              }
+            >
+              <View
+                accessibilityRole="button"
+                accessibilityStates={Array []}
+                accessible={true}
+                focusable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#007AFF",
+                          "fontSize": 18,
+                          "padding": 8,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#f7287b",
+                        },
+                      ]
+                    }
+                  >
+                    CONFIRM
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
