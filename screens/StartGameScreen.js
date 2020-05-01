@@ -28,7 +28,7 @@ const StartGameScreen = props => {
         const updateLayout = () => {
             setButtonWidth(Dimensions.get('window').width / 3);
         };
-    
+
         Dimensions.addEventListener('change', updateLayout);
         return () => {
             Dimensions.removeEventListener('change', updateLayout);
@@ -38,7 +38,7 @@ const StartGameScreen = props => {
     const confirmInputHandler = () => {
         const chosenNumber = parseInt(enteredValue);
         if (isNaN(chosenNumber) || chosenNumber <= 0 || chosenNumber > 99) {
-            Alert.alert('Invalid Number', 'Number has to be a number between 1 and 99', [{text: 'Okay', style: 'destructive', onPress: resetInputHandler}]);
+            Alert.alert('Invalid Number', 'Number has to be a number between 1 and 99', [{ text: 'Okay', style: 'destructive', onPress: resetInputHandler }]);
             return;
         }
 
@@ -70,21 +70,21 @@ const StartGameScreen = props => {
                         <TitleText style={styles.title}>Start a New Game!</TitleText>
                         <Card style={styles.inputContainer}>
                             <BodyText style={styles.text}>Select a Number</BodyText>
-                            <Input style={styles.input} 
-                                placeholder="Enter a Number" 
-                                blurOnSubmit autoCapitalize='none' 
-                                autoCorrect={false} 
-                                keyboardType="number-pad" 
+                            <Input style={styles.input}
+                                placeholder="Enter a Number"
+                                blurOnSubmit autoCapitalize='none'
+                                autoCorrect={false}
+                                keyboardType="number-pad"
                                 maxLength={2}
                                 onChangeText={numberInputHandler}
                                 value={enteredValue}
                             />
                             <View style={styles.buttonContainer}>
-                                <View style={{width: buttonWidth}}>
-                                    <Button color={Colors.accent} title="RESET" onPress={resetInputHandler}/>
+                                <View style={{ width: buttonWidth }}>
+                                    <Button color={Colors.accent} title="RESET" onPress={resetInputHandler} />
                                 </View>
-                                <View style={{width: buttonWidth}}>
-                                    <Button color={Colors.primary} title="CONFIRM" onPress={confirmInputHandler}/>
+                                <View style={{ width: buttonWidth }}>
+                                    <Button color={Colors.primary} title="CONFIRM" onPress={confirmInputHandler} />
                                 </View>
                             </View>
                         </Card>
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     //     width: Dimensions.get('window').width / 3,
     // },
     input: {
-        width: 50,
+        width: 120,
         textAlign: 'center'
     },
     summaryContainer: {
